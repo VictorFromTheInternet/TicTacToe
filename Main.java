@@ -1,20 +1,3 @@
-/*
-    Notes: make the winner function and update gameOver in the main fucntion 
-
-    functions:  - main() - - - - - - Will choose a random first player and input move,
-                                     will then use an if statement inside while loop to change players
-                                     . . .
-                                     the cond for the while loop is gameOver, is not updated yet
-                - gameOutput() - - - Will output the game board
-                - gameInput()- - - - Will check the player, then either input an X or O on the board
-                                     it will also check if the move is valid by calling .isValid()
-                - isValid()  - - - - As of right now the function works but . . . after input is corrected 
-                                     multiple boards are output
-                - checkGame()- - - - Will grab the value of "winning" chars on the board, assign them to 
-                                     a string and then compare their values to "XXX" and "OOO", 
-                                     if equal it will stop the program and output the winner
-
-*/
 
 import java.util.*;
 
